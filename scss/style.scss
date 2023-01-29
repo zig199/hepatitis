@@ -555,6 +555,10 @@ button {
             column-gap: 26px;
         }
 
+        @media (max-width: 380px) {
+            column-gap: 15px;
+        }
+
         &:before {
             content: '';
             position: absolute;
@@ -607,6 +611,14 @@ button {
             height: 300px;
         }
 
+        @media (max-width: 430px) {
+            max-width: 175px;
+        }
+
+        @media (max-width: 380px) {
+            max-width: 160px;
+        }
+
         &--img {
             display: flex;
             justify-content: center;
@@ -633,6 +645,16 @@ button {
                 font-size: 16px;
                 line-height: 22px;
             }
+
+            @media (max-width: 380px) {
+                font-size: 13px;
+                line-height: 18px;
+            }
+
+            @media (max-width: 321px) {
+                font-size: 12px;
+                line-height: 16px;
+            }
         }
 
         &--btn {
@@ -652,6 +674,16 @@ button {
                     line-height: 22px;
                     padding: 10px 30px;
                     border-radius: 15px;
+                }
+
+                @media (max-width: 380px) {
+                    padding: 10px 20px;
+                }
+
+                @media (max-width: 321px) {
+                    padding: 10px;
+                    border-radius: 10px;
+                    font-size: 14px;
                 }
             }
         }
@@ -1226,6 +1258,10 @@ button {
                             width: 28px;
                         }
                     }
+
+                    @media (max-width: 380px) {
+                        left: 140px;
+                    }
                 }
             }
         }
@@ -1308,6 +1344,13 @@ button {
         padding-top: 91px;
         background-size: 150%;
         height: 287px;
+    }
+
+    @media (max-width: 380px) {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        background: url("../images/svg/footer.svg") no-repeat bottom / cover;
     }
 
     &__tg {
