@@ -605,18 +605,10 @@ button {
         background: #ffffff;
 
         @media (max-width: 570px) {
-            width: 100%;
-            max-width: 181px;
+            width: 46%;
+            max-width: max-content;
             padding: 15px 10px 23px 10px;
             height: 300px;
-        }
-
-        @media (max-width: 430px) {
-            max-width: 170px;
-        }
-
-        @media (max-width: 380px) {
-            max-width: 160px;
         }
 
         &--img {
@@ -670,6 +662,7 @@ button {
                 border-radius: 9px;
 
                 @media (max-width: 570px) {
+                    width: 100%;
                     font-size: 16px;
                     line-height: 22px;
                     padding: 10px 30px;
