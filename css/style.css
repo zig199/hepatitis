@@ -662,7 +662,7 @@ button:focus {
 }
 @media (max-width: 430px) {
   .catalog__item {
-    max-width: 175px;
+    max-width: 170px;
   }
 }
 @media (max-width: 380px) {
@@ -1339,6 +1339,11 @@ button:focus {
   }
   .modal-body.gepatit .modal__info--tg img {
     width: 28px;
+  }
+}
+@media (max-width: 430px) {
+  .modal-body.gepatit .modal__info--tg {
+    left: 140px;
   }
 }
 @media (max-width: 380px) {
