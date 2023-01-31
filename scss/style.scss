@@ -743,6 +743,10 @@ button {
             background: url('../images/svg/plus.svg') no-repeat;
             right: -346px;
             top: -336px;
+
+            @media (max-width: 570px) {
+                content: none;
+            }
         }
     }
 

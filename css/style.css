@@ -814,6 +814,11 @@ button:focus {
   right: -346px;
   top: -336px;
 }
+@media (max-width: 570px) {
+  .skills__list:after {
+    content: none;
+  }
+}
 .skills__item {
   text-align: center;
 }
