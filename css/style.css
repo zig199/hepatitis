@@ -681,7 +681,8 @@ button:focus {
     margin-bottom: 16px;
   }
   .catalog__item--img img {
-    width: 100%;
+    width: auto;
+    height: 100%;
   }
 }
 .catalog__item--title {
