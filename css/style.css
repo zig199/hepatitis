@@ -340,8 +340,7 @@ button:focus {
   .offer__image img {
     width: 100%;
     max-width: 354px;
-    margin-left: 17px;
-    margin-right: 17px;
+    margin: auto;
   }
 }
 .offer__content .container {
@@ -776,6 +775,7 @@ button:focus {
     -webkit-filter: blur(75px);
             filter: blur(75px);
     z-index: 1;
+    content: none;
   }
 }
 .skills:after {
@@ -885,10 +885,10 @@ button:focus {
     margin-bottom: 24px;
   }
   .life__info--img img {
+    display: block;
     width: 100%;
     max-width: 319px;
-    margin-left: 33px;
-    margin-right: 33px;
+    margin: auto;
   }
 }
 .life__info--title {
@@ -965,6 +965,7 @@ button:focus {
     -webkit-filter: blur(75px);
             filter: blur(75px);
     z-index: 1;
+    display: none;
   }
 }
 .feedback__info {

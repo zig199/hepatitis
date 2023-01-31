@@ -314,8 +314,7 @@ button {
             img {
                 width: 100%;
                 max-width: 354px;
-                margin-left: 17px;
-                margin-right: 17px;
+                margin: auto;
             }
         }
     }
@@ -710,6 +709,7 @@ button {
             background: #51BFA6;
             filter: blur(75px);
             z-index: 1;
+            content: none;
         }
     }
 
@@ -812,10 +812,10 @@ button {
                 margin-bottom: 24px;
 
                 img {
+                    display: block;
                     width: 100%;
                     max-width: 319px;
-                    margin-left: 33px;
-                    margin-right: 33px;
+                    margin: auto;
                 }
             }
         }
@@ -894,6 +894,7 @@ button {
             background: #F7CC7E;
             filter: blur(75px);
             z-index: 1;
+            display: none;
         }
     }
 
